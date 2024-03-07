@@ -14,7 +14,7 @@ body_parts = ["0", "/", "|",  "\\",  "/", "\\"]
 current_body_parts = ["", "", "",  "",  "", ""]
 
 
-lives = 6
+lives = 4
 max_lives = 6
 
 while "_" in hint and lives > 0:
