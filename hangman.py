@@ -1,7 +1,7 @@
 import random
 import sys
 
-words = ["World", "Pineapple", "Cat", "Python", "Armadillo"]
+words = ["World", "Pineapple", "Cat", "Python", "Armadillo", "Mario"]
 
 word_to_guess = words[random.randrange(0, len(words))]
 
@@ -14,7 +14,7 @@ body_parts = ["0", "/", "|",  "\\",  "/", "\\"]
 current_body_parts = ["", "", "",  "",  "", ""]
 
 
-lives = 6
+lives = 2
 max_lives = 6
 
 while "_" in hint and lives > 0:
